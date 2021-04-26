@@ -6,5 +6,3 @@
 * Steven Chan
 ## How to run:
 1. idk
-
-Note: please rename repo
