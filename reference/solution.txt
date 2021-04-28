@@ -1,0 +1,33 @@
+clingo version 5.5.0
+Reading from sudoku.lp
+Solving...
+Answer: 1
+row(1) row(2) row(3) col(1) col(2) col(3) val(1) val(2) val(3) num(1,1,1) num(2,3,1) num(3,2,1) num(1,3,2) num(2,2,2) num(3,1,2) num(1,2,3) num(2,1,3) num(3,3,3)
+Answer: 2
+row(1) row(2) row(3) col(1) col(2) col(3) val(1) val(2) val(3) num(1,1,1) num(2,2,1) num(3,3,1) num(1,3,2) num(2,1,2) num(3,2,2) num(1,2,3) num(2,3,3) num(3,1,3)
+Answer: 3
+row(1) row(2) row(3) col(1) col(2) col(3) val(1) val(2) val(3) num(1,1,1) num(2,3,1) num(3,2,1) num(1,2,2) num(2,1,2) num(3,3,2) num(1,3,3) num(2,2,3) num(3,1,3)
+Answer: 4
+row(1) row(2) row(3) col(1) col(2) col(3) val(1) val(2) val(3) num(1,1,1) num(2,2,1) num(3,3,1) num(1,2,2) num(2,3,2) num(3,1,2) num(1,3,3) num(2,1,3) num(3,2,3)
+Answer: 5
+row(1) row(2) row(3) col(1) col(2) col(3) val(1) val(2) val(3) num(1,3,1) num(2,1,1) num(3,2,1) num(1,1,2) num(2,2,2) num(3,3,2) num(1,2,3) num(2,3,3) num(3,1,3)
+Answer: 6
+row(1) row(2) row(3) col(1) col(2) col(3) val(1) val(2) val(3) num(1,2,1) num(2,1,1) num(3,3,1) num(1,1,2) num(2,3,2) num(3,2,2) num(1,3,3) num(2,2,3) num(3,1,3)
+Answer: 7
+row(1) row(2) row(3) col(1) col(2) col(3) val(1) val(2) val(3) num(1,2,1) num(2,1,1) num(3,3,1) num(1,3,2) num(2,2,2) num(3,1,2) num(1,1,3) num(2,3,3) num(3,2,3)
+Answer: 8
+row(1) row(2) row(3) col(1) col(2) col(3) val(1) val(2) val(3) num(1,3,1) num(2,1,1) num(3,2,1) num(1,2,2) num(2,3,2) num(3,1,2) num(1,1,3) num(2,2,3) num(3,3,3)
+Answer: 9
+row(1) row(2) row(3) col(1) col(2) col(3) val(1) val(2) val(3) num(1,3,1) num(2,2,1) num(3,1,1) num(1,2,2) num(2,1,2) num(3,3,2) num(1,1,3) num(2,3,3) num(3,2,3)
+Answer: 10
+row(1) row(2) row(3) col(1) col(2) col(3) val(1) val(2) val(3) num(1,3,1) num(2,2,1) num(3,1,1) num(1,1,2) num(2,3,2) num(3,2,2) num(1,2,3) num(2,1,3) num(3,3,3)
+Answer: 11
+row(1) row(2) row(3) col(1) col(2) col(3) val(1) val(2) val(3) num(1,2,1) num(2,3,1) num(3,1,1) num(1,1,2) num(2,2,2) num(3,3,2) num(1,3,3) num(2,1,3) num(3,2,3)
+Answer: 12
+row(1) row(2) row(3) col(1) col(2) col(3) val(1) val(2) val(3) num(1,2,1) num(2,3,1) num(3,1,1) num(1,3,2) num(2,1,2) num(3,2,2) num(1,1,3) num(2,2,3) num(3,3,3)
+SATISFIABLE
+
+Models       : 12
+Calls        : 1
+Time         : 0.005s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.000s
