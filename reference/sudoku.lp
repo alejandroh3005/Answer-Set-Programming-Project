@@ -1,4 +1,7 @@
 % GOAL: just get n*n board of m nums where K is in any row/col ONCE
+#const n=3.
+#const m=9.
+
 
 row(1..n).	% I
 col(1..n).	% J
@@ -16,4 +19,6 @@ m{ num(I,J,K) : row(I), col(J), val(K) }m.
 % Toss any world where for two nums with same I and K, they don't also share J (one K per row)
 :- num(I,J,K), num(I,J',K), J != J'.
 
-% Somehow (?) use #show to only show num(I,J,K)
+
+% Only show valid nums in our output
+#show num/3.
