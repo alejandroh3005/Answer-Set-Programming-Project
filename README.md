@@ -29,7 +29,7 @@ $ conda install -c potassco clingo
 
 ## Achievements:
 * Read papers of Answer Set Programming (ASP) with AnsProlog
-* Completed first Answer Programming example: NQueens.lp
+* Completed first Answer Set Programming example: NQueens.lp
 * Visualized output from NQueens.lp
 * Completed first successful test sudoku.lp file!
 * Initiated Jupyter Notebook
@@ -41,7 +41,7 @@ $ conda install -c potassco clingo
 * Begin report & demo presentation
 * Complete other Sudoku game-types
 
-## Finals Goals:
+## Final Goals:
 * Encode logic of multiple Sudoku game-types with AnsProlog
 * Visualize all game-type solutions
 * Demonstrate encodings & solutions in project demo
