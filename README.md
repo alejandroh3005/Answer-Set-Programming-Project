@@ -28,7 +28,7 @@ $ conda install -c potassco clingo
 * Clingo is installed by entering 'conda install -c potassco clingo' into the terminal command line
 
 ## Achievements:
-* Read papers of Answer Set Programming with AnsProlog
+* Read papers of Answer Set Programming (ASP) with AnsProlog
 * Completed first Answer Programming example: NQueens.lp
 * Visualized output from NQueens.lp
 * Completed first successful test sudoku.lp file!
