@@ -1,15 +1,16 @@
 % GOAL: just get n*n board of m nums where K is in any row/col ONCE
-#const n=9.
-#const m=81.
-#const g=3.
+#const n=6.
+#const m=n*n.
+#const g=2.
 
 row(1..n).	% I
 col(1..n).	% J
 val(1..n).	% K
 
-group(I,J,G) :- row(I), col(J), 
-                X = (I - 1) / g, 
-                Y = (J - 1) / g,
+group(I,J,G) :- row(I), col(J),
+                D = n / g,
+                X = (I - 1) / D, 
+                Y = (J - 1) / D,
                 G = (Y * g) + X + 1.
 
 % NOTE: m is user given. Must be equal to n*n
