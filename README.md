@@ -39,7 +39,7 @@ $ conda install -c potassco clingo
 * Complete original Sudoku game in AnsProlog
 * Grow our understanding of ASP concepts
 * Begin report & demo presentation
-* Complete other Sudoku game-types
+* Complete other Sudoku game-types: https://www.worldpuzzle.org/championships/types-of-puzzles/wsc/
 
 ## Final Goals:
 * Encode logic of multiple Sudoku game-types with AnsProlog
