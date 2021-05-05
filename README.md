@@ -32,17 +32,20 @@ $ conda install -c potassco clingo
 * Completed first Answer Set Programming example: NQueens.lp
 * Visualized output from NQueens.lp
 * Completed first successful test sudoku.lp file!
+* Visualized output from sudoku.lp
 * Initiated Jupyter Notebook
-
+* **Completed encoding of classic Sudoku**
+* Visualized classic Sudoku solutions
+* **Completed encoding of diagonal Sudoku**
+* Visualized diagonal Sudoku solutions
+ 
 ## Next Goals:
-* Visualize output from sudoku.lp
-* Complete original Sudoku game in AnsProlog
 * Grow our understanding of ASP concepts
 * Begin report & demo presentation
 * Complete encoding of other Sudoku game-types: https://www.worldpuzzle.org/championships/types-of-puzzles/wsc/
 
 ## Final Goals:
-* Encode logic of multiple Sudoku game-types with AnsProlog
-* Visualize all game-type solutions
+* Encode logic of multiple Sudoku game types with AnsProlog
+* Visualize all game type solutions
 * Demonstrate encodings & solutions in project demo
 * Complete final report
