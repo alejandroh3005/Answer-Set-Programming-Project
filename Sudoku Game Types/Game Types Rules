@@ -1,17 +1,21 @@
 DIAGONAL
-Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. Additionally, each digit appears exactly once in each of the two main diagonals.
+Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. 
+Additionally, each digit appears exactly once in each of the two main diagonals.
 
 
 DIAGONAL EVEN
-Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. Additionally, each digit appears exactly once in each of the two main diagonals and the grey squares in the grid must contain even digits.
+Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. 
+Additionally, each digit appears exactly once in each of the two main diagonals and the grey squares in the grid must contain even digits.
 
 
 DIAGONAL ODD
-Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. Additionally, each digit appears exactly once in each of the two main diagonals and the grey squares in the grid must contain odd digits.
+Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. 
+Additionally, each digit appears exactly once in each of the two main diagonals and the grey squares in the grid must contain odd digits.
 
 
 EVEN
-Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. The grey squares must contain even digits.
+Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. 
+The grey squares must contain even digits.
 
 
 IRREGULAR
@@ -19,28 +23,37 @@ Place a digit from 1 to 9 into each of the empty squares so that each digit appe
 
 
 ISOSUDOKU
-Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, 9-cell diagonals and the nine outlined 3x3 regions. In the shorter diagonals all digits must be different.
+Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, 9-cell diagonals and the nine outlined 3x3 regions. 
+In the shorter diagonals all digits must be different.
 
 
 KILLER
-Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. The sum of the numbers in each outlined region is equal to the corresponding number given in a corner of the outline. No digit is repeated within a given outlined region.
+Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. 
+The sum of the numbers in each outlined region is equal to the corresponding number given in a corner of the outline. No digit is repeated within a given outlined region.
 
 
 KROPKI
-Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. If absolute difference between two digits in neighbouring cells equals 1, then they are separated by a white dot. If the digit is a half of digit in the neighbouring cell, then they are separated by black dot. The dot between 1 and 2 can be either white or black.
+Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. 
+If absolute difference between two digits in neighbouring cells equals 1, then they are separated by a white dot. If the digit is a half of digit in the neighbouring cell, 
+then they are separated by black dot. The dot between 1 and 2 can be either white or black.
 
 
 LITTLE KILLER
-Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and nine outlined 3x3 regions. Numbers with arrows indicate sum of the numbers in each direction.
+Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and nine outlined 3x3 regions. 
+Numbers with arrows indicate sum of the numbers in each direction.
 
 
 LUCKY SEVEN
-Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. Additionally, each digit appears exactly once in each of the two main diagonals. All neighbouring cells linked with the line contain digits in arithmetical series (e. g. 234) or in a special one (e. g. 76567). Sudoku grid contains highlighted all the squares with even digits.
+Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. 
+Additionally, each digit appears exactly once in each of the two main diagonals. All neighbouring cells linked with the line contain digits in 
+arithmetical series (e. g. 234) or in a special one (e. g. 76567). Sudoku grid contains highlighted all the squares with even digits.
 
 
 ODD
-Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. The grey squares must contain odd digits.
+Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the rows, columns and the nine outlined 3x3 regions. 
+The grey squares must contain odd digits.
 
 
 PARQUET
-Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the outlined squares 4x4, all 12 columns, all 12 rows, 9 top left corner, 9 central and 9 bottom right corner highlighted squares.                 	
+Place a digit from 1 to 9 into each of the empty squares so that each digit appears exactly once in each of the outlined squares 4x4, 
+all 12 columns, all 12 rows, 9 top left corner, 9 central and 9 bottom right corner highlighted squares.                 	
