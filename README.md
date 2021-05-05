@@ -33,9 +33,9 @@ $ conda install -c potassco clingo
 * Visualized output from NQueens.lp
 * Completed first successful test sudoku.lp file!
 * Initiated Jupyter Notebook
+* Visualize output from sudoku.lp
 
 ## Next Goals:
-* Visualize output from sudoku.lp
 * Complete original Sudoku game in AnsProlog
 * Grow our understanding of ASP concepts
 * Begin report & demo presentation
