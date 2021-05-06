@@ -5,6 +5,9 @@
 * Alejandro Hernandez
 * Steven Chan
 
+## Project Demo Presentation & Final Report
+* https://docs.google.com/presentation/d/1aH7-OurzBJG9XKK3rnm6s1v3DNCxw9iQLi9YTq0D78U/edit?usp=sharing
+* (Will attach once complete)
 
 ## Technologies:
 * [Anaconda](https://www.anaconda.com): Version 4.10.1
