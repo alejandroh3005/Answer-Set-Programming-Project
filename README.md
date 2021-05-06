@@ -44,7 +44,7 @@ $ conda install -c potassco clingo
  
 ## Next Goals:
 * Grow our understanding of ASP concepts
-* Begin report & demo presentation
+* Continue work on report & demo presentation
 * Complete encoding of other Sudoku game-types: https://www.worldpuzzle.org/championships/types-of-puzzles/wsc/
 
 ## Final Goals:
