@@ -1,4 +1,4 @@
-% GOAL: output solutions for a N*N Sudoku puzzle; GAMETYPE = CLASSIC
+% GOAL: output solutions for a N*N Sudoku puzzle; GAMETYPE = DIAGONAL
 
 #const n=9.	% Width/height of board. NOTE: n=4 is default; it may be user-defined in command line
 #const g=3.	% Number of groups in our board. Must be equal to SQRT(n)
