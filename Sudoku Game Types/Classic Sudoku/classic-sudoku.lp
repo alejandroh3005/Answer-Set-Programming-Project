@@ -15,17 +15,19 @@ group(I,J,G) :- row(I), col(J),
                 Y = (J - 1) / D,
                 G = (Y * g) + X + 1.
 
-% Choice rule: Choose exactly M 'sudoku' configurations- one for each space on our board. Each 'sudoku' configuration has a row, column, and value.
+
+% Choice rule: For some valid row(I) and col(J), instantiate sudoku(I,J,1), sudoku(I,J,2), ..., sudoku(I,J,9)
+% This instantiates all possible options for our board: each board position gets all 9 possible value options
 1 { sudoku(I,J,K) : val(K) } 1 :- row(I), col(J).
 
-% NOTE: Rules with no head are used to define invalid properties (any world that agrees with the rule is tossed, AKA excluded from our solution)
-% Toss any world where for two choices with same I and J, they have unique K's (one K per position)
+% NOTE: Rules with no head are used to define invalid properties (any world that agrees with the rule is excluded from our solution)
+% Exclude any world where for two choices with same I and J, they have unique K's (one K per position)
 :- sudoku(I,J,K), sudoku(I,J,K'), K != K'.
-% Toss any world where for two choices with same J and K, they have unique I's (one K per column)
+% Exclude any world where for two choices with same J and K, they have unique I's (one K per column)
 :- sudoku(I,J,K), sudoku(I',J,K), I != I'.
-% Toss any world where for two choices with same I and K, they  have unique J's (one K per row)
+% Exclude any world where for two choices with same I and K, they  have unique J's (one K per row)
 :- sudoku(I,J,K), sudoku(I,J',K), J != J'.
-% Toss any world where for two choices with same K, they are in the same subsection (one K per subsection)
+% Exclude any world where for two choices with same K, they are in the same subsection (one K per subsection)
 :- sudoku(I,J,K), sudoku(I',J',K), group(I,J,G), group(I',J',G), I != I', J != J'.
 
 % State width/height of board
