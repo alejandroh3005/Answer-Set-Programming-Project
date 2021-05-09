@@ -1,9 +1,11 @@
 # CS3520 Project
-## Team Members:
+## Team Members of CHOBS:
 * Ricardo A. Baeza
 * Alec Ortiz
 * Alejandro Hernandez
 * Steven Chan
+
+<img src = "images/72dpi-Chunkies_Donnie.jpg" width ="150" /> <img src = "images/72dpi-Chunkies_Leo.jpg" width ="150" /> <img src = "images/72dpi-Chunkies_Michel.jpg" width ="150" /> <img src = "images/72dpi-Chunkies_Raph.jpg" width ="150" />
 
 ## Project Demo Presentation & Final Report
 * [Demo Presentation Link](https://docs.google.com/presentation/d/1aH7-OurzBJG9XKK3rnm6s1v3DNCxw9iQLi9YTq0D78U/edit?usp=sharing)
