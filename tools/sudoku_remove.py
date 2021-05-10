@@ -32,7 +32,7 @@ def main():
             for j in range(len(solution_set[0])):
                 rand = random.uniform(0, 1)
                 if (rand > difficulty):
-                    output_txt += "sudoku(%d,%d,%d).\n"%(i, j, solution_set[i][j])
+                    output_txt += "sudoku(%d,%d,%d).\n"%(i + 1, j + 1, solution_set[i][j])
     with open(sys.argv[3], 'w') as file:
         file.write(output_txt)
 
