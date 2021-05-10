@@ -33,6 +33,20 @@ $ git clone https[]()://github.com/ricardoaxelbaeza/CHOBS-Project.git
 * After making sure Anaconda is installed, we then need to install clingo. 
 * Clingo is installed by entering 'conda install -c potassco clingo' into the terminal command line
 
+### Running .lp files
+* So after clingo is installed with anaconda:
+* To run a .lp file: make sure that you are in the correct folder/path that the .lp file is in
+* In the terminal type: 
+  * $ clingo nameOfFile.lp
+* If you wish to see all possible solutions (type 0): 
+  * $ clingo nameOfFile.lp 0
+* Specific amount of solutions (type x: x is 1,2,3 etc.)
+  * $ clingo nameOfFile.lp 1
+
+### Visualizing files
+* Note: Make sure that the python visalization is in the folder that is being tested
+  * $ python3 sodoku_viz.py nameOfFile.txt
+
 ## Achievements:
 * Read papers of Answer Set Programming (ASP) with AnsProlog
 * Completed first Answer Set Programming example: NQueens.lp
