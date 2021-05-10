@@ -1,8 +1,3 @@
-%Here, we are defining the attributes of the sudoku board 
-row(1..9)
-col(1..9)
-num(1..9)
-
 %Here we are populating the board with pre-filled spots on the sudoku board. 
 %In this section we will be trying to feed these values into the sudoku board (like in sudokuExample.jpeg)...
 %... and have the computer fill in the remaining spots
