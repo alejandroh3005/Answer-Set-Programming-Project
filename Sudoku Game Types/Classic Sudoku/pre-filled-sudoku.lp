@@ -71,6 +71,7 @@ sudoku(9,3,6).
 :- sudoku(R,C,V), sudoku(R',C',V), ((R-1)/3) == ((R'-1)/3), ((C-1)/3) == ((C'-1)/3), R != R', C != C'. 
 
 %To see output : result.jpeg
+#show sudoku/3.
 
 
 
