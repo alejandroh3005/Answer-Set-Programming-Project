@@ -37,7 +37,5 @@ group(I,J,G) :- row(I), col(J),
 % Toss any world where for two choices with same K on the B diagonal, they are not at the same position (unique K's in B diagonal)
 :- sudoku(I,J,K), sudoku(I',J',K), I+J == n+1, I'+J' == n+1, (I,J) != (I',J').
 
-% State width/height of board
-#show n.
 % Only show valid choices/configurations of 'sudoku' in our output
 #show sudoku/3.

@@ -1,13 +1,17 @@
+size = 9
+
 def collect(stream):
    solutions  = []
    board_size = 0
    for line in stream:
-      if line[0].isdigit():
-         board_size = int(line[0])
+      # print(line[0:7])
+      if line[0:7] == "sudoku(":
+         board_size = size
          board = [[0 for c in range(board_size)] for r in range(board_size)]
-         solution = line[2:]
-         data = solution.translate({ord(i): None for i in 'sodoku'}).replace(", ", ",")
+         solution = line[:]
+         data = solution.translate({ord(i): None for i in 'sudoku'}).replace(", ", ",")
          for pair in data.split():
+            print(pair)
             row = int(pair[-6])
             col = int(pair[-4])
             val = int(pair[-2])

@@ -22,10 +22,6 @@ sudoku(8,4,4).
 sudoku(8,8,7).
 sudoku(9,3,6).
 
-%Here we will define the rules, and the computer will go on from there: 
-
-
-
 
 
 
