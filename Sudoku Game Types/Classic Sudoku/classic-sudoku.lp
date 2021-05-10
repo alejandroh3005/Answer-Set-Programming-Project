@@ -1,5 +1,4 @@
 % GOAL: output solutions for a N*N Sudoku puzzle; GAMETYPE = CLASSIC
-
 #const n=9.	% Width/height of board. NOTE: n=4 is default; it may be user-defined in command line
 #const g=3.	% Number of groups in our board. Must be equal to SQRT(n)
 #const m=n*n.	% Number of spaces on our board
@@ -30,7 +29,5 @@ group(I,J,G) :- row(I), col(J),
 % Exclude any world where for two choices with same K, they are in the same subsection (one K per subsection)
 :- sudoku(I,J,K), sudoku(I',J',K), group(I,J,G), group(I',J',G), I != I', J != J'.
 
-% State width/height of board
-#show n.
 % Only show valid choices/configurations of 'sudoku' in our output
 #show sudoku/3.
