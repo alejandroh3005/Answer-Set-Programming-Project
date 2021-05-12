@@ -50,7 +50,7 @@ $ git clone https[]()://github.com/ricardoaxelbaeza/CHOBS-Project.git
 ### Running 'Demo' Juypter Notebook
 1. Open Command Prompt and change directory to project repository
 2. Activate a conda environment that has clingo installed by calling 'conda activate env_name'
-3. Enter 'juypter notebook' on the terminal; A page will open up from the browser
+3. Enter 'jupyter notebook' on the terminal; A page will open up from the browser
 4. Click on the demo.ipynb on the root directory page
 5. Press the ▶ Run Button on the toolbar
 
