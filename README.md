@@ -47,6 +47,13 @@ $ git clone https[]()://github.com/ricardoaxelbaeza/CHOBS-Project.git
 * Note: Make sure that the python visalization is in the folder that is being tested
   * $ python3 sodoku_viz.py nameOfFile.txt
 
+### Running 'Demo' Juypter Notebook
+1. Open Command Prompt and change directory to project repository
+2. Activate a conda environment that has clingo installed by calling 'conda activate env_name'
+3. Enter 'jupyter notebook' on the terminal; A page will open up from the browser
+4. Click on the demo.ipynb on the root directory page
+5. Press the ▶ Run Button on the toolbar
+
 ## Achievements:
 * Read papers of Answer Set Programming (ASP) with AnsProlog
 * Completed first Answer Set Programming example: NQueens.lp
