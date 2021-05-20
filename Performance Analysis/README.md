@@ -1,4 +1,4 @@
-PERFORMANCE ANALYSIS
+**PERFORMANCE ANALYSIS**
 
 Source of human times and Sudoku puzzles:
 https://wsudoku.com/en/?sudoku=651848
