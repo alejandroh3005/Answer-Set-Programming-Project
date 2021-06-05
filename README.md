@@ -66,11 +66,6 @@ $ git clone https[]()://github.com/ricardoaxelbaeza/CHOBS-Project.git
 * **Completed encoding of diagonal Sudoku**
 * Visualized diagonal Sudoku solutions
  
-## Next Goals:
-* Grow our understanding of ASP concepts
-* Continue work on report & demo presentation
-* Complete encoding of other Sudoku game-types: https://www.worldpuzzle.org/championships/types-of-puzzles/wsc/
-
 ## Final Goals:
 * Encode logic of multiple Sudoku game types with AnsProlog
 * Visualize all game type solutions
