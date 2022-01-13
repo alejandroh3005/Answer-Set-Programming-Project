@@ -9,7 +9,7 @@
 
 ## Project Demo Presentation & Final Report
 * [Demo Presentation Link](https://docs.google.com/presentation/d/1aH7-OurzBJG9XKK3rnm6s1v3DNCxw9iQLi9YTq0D78U/edit?usp=sharing)
-* (Will attach once complete)
+* [Final Report](https://docs.google.com/document/d/18IV-GzBeCnLSD5Rx8wjNvmjssOXZmuxpdMMighdQQ_w/edit?usp=sharing)
 
 ## Technologies:
 * [Anaconda](https://www.anaconda.com): Version 4.10.1
